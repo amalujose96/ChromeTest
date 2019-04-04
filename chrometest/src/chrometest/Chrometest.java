@@ -1,12 +1,14 @@
 package chrometest;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Chrometest {
 
 	public static void main(String[] args) 
 	{
-		 ChromeDriver driver=new ChromeDriver();
+		 WebDriver driver=new FirefoxDriver();
 		 driver.quit();
 
 	}
